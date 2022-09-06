@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    padding: 0.75rem;
+}
+
+.green-color {
+    color:  coral;
+}
+/* -----------------------navbar---------------------------- */
+#navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    z-index: 1;
+    
+    
+}
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+#navbar ul li  a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.3rem 1rem;
+    margin: 0 0.25rem;
+    font-size: 20px;
+    
+}
+#navbar ul li  a:hover {
+    background: coral;
+    border-radius: 5px;
+    
+}
+
+
+/*------------------ Showcase ----------------*/
+
+#showcase {
+    background: url(/img/240600184_876665016303870_4835812178367131341_n.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    
+    
+    
+}
+#showcase .showcase-content .l-heading {
+    font-size: 80px;
+    margin-bottom: 1rem;
+    color: coral;
+}
+#showcase .showcase-content .text {
+    font-size: 30px;
+}
+#showcase .showcase-content .btn {
+    
+    text-decoration: none;
+    color: #fff;
+    background: coral;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    
+}
+#showcase .showcase-content .btn:hover{
+    background: #333;
+}
+
+/* --------------------------Section */
+
+.container {
+    
+    background: #333;
+    color: #fff;
+}
+.social {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+.items {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    
+}
+.item-1 , .item-2 , .item-3 {
+    margin-right: 3rem;
+}
+.items h3 {
+    font-size: 1.5rem;
+}
+.items p {
+    font-size: 1.3rem;
+}
+.items i {
+    background: coral;
+    padding: 0.5rem;
+    border-radius: 6px;
+    margin: 0.5rem;
+    color: black;
+}
+.items i:hover {
+    background: #444;
+}
+
+/* ------------------------showcase */
+#who {
+    display: flex;
+}
+#who div {
+    flex: 1;
+}
+
+.who-img {
+    background: url(/img/programming-g5209b1c53_1920.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 50%;
+    max-height: 500px;
+}
+.who-text {
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    background: #333;
+    height: 100vh;
+    padding-top: 5rem;
+    max-height: 500px;
+    
+}
+.who-text h2 {
+    font-size: 3rem;
+}
+.who-text p {
+    font-size: 1.5rem;
+}
+.who-text h3 {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.who-text ul li {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+
+/* --------------------------section */
+
+#contact {
+    background: url(/img/cup-of-coffee-g7f21818a5_1920.jpg) no-repeat center center/cover;
+    
+}
+#contact .contact {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.contact h1 {
+    font-size: 5rem;
+}
+.contact p {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.contact input , textarea {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 2rem;
+    background: none;
+    border: 1px solid #fff;
+}
+.contact-btn {
+    color: #fff;
+}
+.contact-btn:hover {
+    background-color: #333;
+}
+.contact input , textarea::placeholder {
+    font-size: 1.5rem;
+}
+.contact textarea {
+    margin-top: 1rem;
+}
